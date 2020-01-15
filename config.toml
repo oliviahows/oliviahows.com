@@ -1,3 +1,52 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://oliviahows.com"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Olivia Hows"
+title = "Olivia Hows"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Olivia Hows"
+intro = "Aspiring UX Designer"
+description = "BrainStation UX Design Student. Previously Broadcast Journalist and TV Producer."
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "oliviahows"
+linkedin = "olivia-hows"
+twitter = "olivia_hows"
+email = "oahows@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2020. Olivia Hows. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = false
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = false
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
