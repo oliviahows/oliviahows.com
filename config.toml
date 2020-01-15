@@ -19,7 +19,7 @@ enableRobotsTXT = true
 [params]
 author = "Olivia Hows"
 intro = "Aspiring UX Designer"
-description = "BrainStation UX Design Student. Previously Broadcast Journalist and TV Producer."
+description = "Previously Broadcast Journalist and TV Producer."
 authorimage = "headshot.jpg"
 dateformat = "Jan 2, 2006"
 
